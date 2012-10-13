@@ -1,0 +1,141 @@
+# This file is distributed under the same license as the Django package.
+#
+# Translators:
+# Denis Darii <sinednx@gmail.com>, 2011.
+# Jannis Leidel <jannis@leidel.info>, 2011.
+#   <lukefiltroman@gmail.com>, 2011.
+# Nicola Larosa <transifex@teknico.net>, 2011, 2012.
+msgid ""
+msgstr ""
+"Project-Id-Version: Django\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-10-13 15:58+0200\n"
+"PO-Revision-Date: 2012-03-08 12:24+0000\n"
+"Last-Translator: Nicola Larosa <transifex@teknico.net>\n"
+"Language-Team: Italian (http://www.transifex.net/projects/p/django/language/"
+"it/)\n"
+"Language: it\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+
+#: ch_states.py:5
+msgid "Aargau"
+msgstr "Argovia"
+
+#: ch_states.py:6
+msgid "Appenzell Innerrhoden"
+msgstr "Appenzello Interno"
+
+#: ch_states.py:7
+msgid "Appenzell Ausserrhoden"
+msgstr "Appenzello Esterno"
+
+#: ch_states.py:8
+msgid "Basel-Stadt"
+msgstr "Basilea Città"
+
+#: ch_states.py:9
+msgid "Basel-Land"
+msgstr "Basilea Campagna"
+
+#: ch_states.py:10
+msgid "Berne"
+msgstr "Berna"
+
+#: ch_states.py:11
+msgid "Fribourg"
+msgstr "Friburgo"
+
+#: ch_states.py:12
+msgid "Geneva"
+msgstr "Ginevra"
+
+#: ch_states.py:13
+msgid "Glarus"
+msgstr "Glarona"
+
+#: ch_states.py:14
+msgid "Graubuenden"
+msgstr "Grigioni"
+
+#: ch_states.py:15
+msgid "Jura"
+msgstr "Giura"
+
+#: ch_states.py:16
+msgid "Lucerne"
+msgstr "Lucerna"
+
+#: ch_states.py:17
+msgid "Neuchatel"
+msgstr "Neuchâtel"
+
+#: ch_states.py:18
+msgid "Nidwalden"
+msgstr "Nidvaldo"
+
+#: ch_states.py:19
+msgid "Obwalden"
+msgstr "Obvaldo"
+
+#: ch_states.py:20
+msgid "Schaffhausen"
+msgstr "Sciaffusa"
+
+#: ch_states.py:21
+msgid "Schwyz"
+msgstr "Svitto"
+
+#: ch_states.py:22
+msgid "Solothurn"
+msgstr "Soletta"
+
+#: ch_states.py:23
+msgid "St. Gallen"
+msgstr "San Gallo"
+
+#: ch_states.py:24
+msgid "Thurgau"
+msgstr "Turgovia"
+
+#: ch_states.py:25
+msgid "Ticino"
+msgstr "Ticino"
+
+#: ch_states.py:26
+msgid "Uri"
+msgstr "Uri"
+
+#: ch_states.py:27
+msgid "Valais"
+msgstr "Vallese"
+
+#: ch_states.py:28
+msgid "Vaud"
+msgstr "Vaud"
+
+#: ch_states.py:29
+msgid "Zug"
+msgstr "Zugo"
+
+#: ch_states.py:30
+msgid "Zurich"
+msgstr "Zurigo"
+
+#: forms.py:22
+msgid "Enter a zip code in the format XXXX."
+msgstr "Inserisci un codice postale nel formato XXXX ."
+
+#: forms.py:37
+msgid "Phone numbers must be in 0XX XXX XX XX format."
+msgstr "I numeri di telefono devono essere in formato 0XX XXX XX XX."
+
+#: forms.py:68
+msgid ""
+"Enter a valid Swiss identity or passport card number in X1234567<0 or "
+"1234567890 format."
+msgstr ""
+"Inserisci un numero di carta d'identità o passaporto svizzeri validi nel "
+"formato X1234567<0 o 1234567890 ."
