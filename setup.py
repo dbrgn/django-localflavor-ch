@@ -1,9 +1,8 @@
 # -*- coding: utf-8 -*-
-import os
 from setuptools import setup, find_packages
 import meta
 
-README = open(os.path.join(os.path.dirname(__file__), 'README.rst')).read()
+README = open('README.rst').read()
 
 setup(
     name = meta.name,
