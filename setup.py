@@ -1,19 +1,25 @@
+# -*- coding: utf-8 -*-
 import os
-from setuptools import setup
+from setuptools import setup, find_packages
+import meta
 
 README = open(os.path.join(os.path.dirname(__file__), 'README.rst')).read()
 
 setup(
-    name = 'django-localflavor-ch',
-    version = '1.0',
-    description = 'Country-specific Django helpers for Switzerland.',
+    name = meta.name,
+    version = meta.version,
+    description = 'Country-specific Django helpers for %s.' % meta.country,
     long_description = README,
     author = 'Django Software Foundation',
     author_email = 'foundation@djangoproject.com',
     license='BSD',
-    url = 'https://github.com/django/django-localflavor-ch',
-    packages = ['django_localflavor_ch'],
-    include_package_data = True,
+    url = 'https://github.com/django/%s' % meta.name,
+    packages = find_packages(),
+    package_data = {
+        '': ['locale/*/*/*.mo', 'locale/*/*/*.po'],
+    },
+    zip_safe=False,
+    keywords='django localflavor %s' % meta.country.lower(),
     classifiers = [
         'Development Status :: 5 - Production/Stable',
         'Environment :: Web Environment',
@@ -23,7 +29,5 @@ setup(
         'Operating System :: OS Independent',
         'Programming Language :: Python',
     ],
-    install_requires=[
-        'Django>=1.4',
-    ]
+    install_requires=['Django>=1.4']
 )
